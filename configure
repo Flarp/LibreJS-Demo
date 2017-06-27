@@ -1,0 +1,6 @@
+npm i
+
+printf "all:\n" > Makefile
+printf "\twebpack && zip Addon manifest.json main.js addon.png\n" >> Makefile
+
+
