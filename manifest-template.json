@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "LibreJS Test",
-  "content_security_policy": "script-src 'self' 'sha256-igOJu1KFsn0gPlfr/Y5dbHRhuCEEvZ4wUcxWq/KL63A='; object-src 'self'",
+  "content_security_policy": "script-src 'self' 'sha256-HASH'; object-src 'self'",
   "version": "0.0.1",
   "background": {
     "scripts": ["main.js"],
